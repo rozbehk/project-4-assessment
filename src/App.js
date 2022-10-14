@@ -4,7 +4,7 @@ import CircleSelector from "./components/CircleSelector/CircleSelector";
 import Circle from "./components/Circle/Circle";
 class App extends Component {
   state = {
-    activeCircle: "",
+    activeCircle: "circle1",
   };
 
   handleSelected = (circle) => {
